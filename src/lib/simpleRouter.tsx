@@ -1,7 +1,7 @@
 import React from "react"
 type route={
     name:string
-    component:()=>React.JSX.Element
+    component:React.ComponentType
 }
 
 class simpleRouter{
@@ -19,7 +19,7 @@ class simpleRouter{
         const currentScreen = this.history[this.history.length - 1];
         const match = this.routes.find((individual_route) => individual_route.name === currentScreen);
     
-        return match ? match.component() : <div>Screen Not found</div>;
+        return match ? React.createElement(match.component) : <div>Screen Not found</div>;
     }
     
     navigate(screen:string):void{
