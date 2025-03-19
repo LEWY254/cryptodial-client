@@ -1,7 +1,6 @@
 import React from 'react';
 import { ArrowRight, Activity, Globe, Shield, ChevronDown } from 'lucide-react';
 
-
 const Hero: React.FC = () => {
   return (
     <section 
@@ -32,7 +31,7 @@ const Hero: React.FC = () => {
           
           {/* Right Side - Phone Mockup with SVG */}
           <div className="w-full lg:w-1/2 flex justify-center animate-fade-in animate-delay-500 relative">
-            <div id="phone_mockup" className="relative w-72 h-[500px] glass-card overflow-hidden border-4 border-white border-opacity-30 rounded-[40px] hover:border-crypto-teal hover:border-opacity-50 transition-all duration-500">
+            <div id="phone_mockup" className="relative w-72 h-[500px] glass-card overflow-hidden border-4 border-white border-opacity-30 rounded-[40px] hover:border-crypto-teal hover:border-opacity-50 transition-all duration-500 bg-transparent">
               <img src='/asset-single.svg' alt='Phone Mockup' className='w-full h-full object-contain' />
             </div>
             
