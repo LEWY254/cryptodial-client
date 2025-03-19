@@ -48,3 +48,5 @@ class simpleRouter{
         this.listeners.forEach((listener)=>listener())
     }
     }
+
+export default simpleRouter
