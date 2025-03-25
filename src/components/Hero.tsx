@@ -23,7 +23,7 @@ const Hero: React.FC = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 animate-fade-up animate-delay-300">
-              <a href="#get-started" className="btn-primary flex items-center gap-2 transform transition-transform duration-300 hover:scale-105">
+              <a href="https://github.com/LEWY254/cryptodial" className="btn-primary flex items-center gap-2 transform transition-transform duration-300 hover:scale-105">
                 Get Started <ArrowRight size={18} />
               </a>
             </div>
