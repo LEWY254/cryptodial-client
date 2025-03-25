@@ -58,7 +58,7 @@ const Impact: React.FC = () => {
             Redefining Financial Access
           </h2>
           <p className="text-lg text-white text-opacity-80">
-            CryptoDial is bridging the gap between blockchain technology and the world's unbanked populations, creating opportunities for financial inclusion on a massive scale.
+            CryptoDial will bridge the gap between blockchain technology and the world's unbanked populations, creating opportunities for financial inclusion on a massive scale.
           </p>
         </div>
 
