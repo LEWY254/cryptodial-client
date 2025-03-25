@@ -55,15 +55,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <Mail size={20} className="text-crypto-teal flex-shrink-0 mt-1" />
-                <span className="text-white text-opacity-70">info@cryptodial.com</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <Phone size={20} className="text-crypto-teal flex-shrink-0 mt-1" />
-                <span className="text-white text-opacity-70">+1 (555) 123-4567</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <MapPin size={20} className="text-crypto-teal flex-shrink-0 mt-1" />
-                <span className="text-white text-opacity-70">123 Blockchain Avenue, Digital City, Internet 10101</span>
+                <span className="text-white text-opacity-70">cryptodial@gmail.com</span>
               </li>
             </ul>
           </div>
