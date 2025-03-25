@@ -11,7 +11,7 @@ export const ThemeToggle: React.FC = () => {
     <Toggle 
       aria-label="Toggle theme" 
       className="rounded-full w-10 h-10 flex items-center justify-center transition-all duration-300 focus:outline-none"
-      pressed={theme === 'dark'}
+      pressed={theme === 'light'}
       onPressedChange={toggleTheme}
     >
       {theme === 'dark' ? 
